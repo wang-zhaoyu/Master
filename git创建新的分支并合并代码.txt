@@ -1,0 +1,27 @@
+-- ------------------------创建新的分支，并copy内容提交到新的分支上----------------------
+第一步：git branch 查看当前分支情况
+
+第二步：git branch DEV，新建一个自己的分支
+
+第三步：git checkout DEV，切换到新建的分支
+
+第四步：git branch，重新查看一下
+ 
+第五步：git push -u origin DEV,同步到github线上
+
+第六步：进行add追踪以及commit提交
+		git add --all
+		git commit -m 'DEV第一次提交'
+		
+第七步：查看线上github仓库，新的v2分支就创建好啦！！！
+
+-- -----------------------合并代码--------------------
+
+以合并DEV代码到master上为例
+第一步 ： 修改DEV分支内容，然后add--> git add ***
+
+第二步 ： 提交add的内容 --> git commit -m "*****"
+
+第三步 ： 切换分支到master上 --> git branch master
+
+第四步 ： git merge DEV, git merge命令用于合并指定分支到当前分支
