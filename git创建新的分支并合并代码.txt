@@ -22,6 +22,6 @@
 
 第二步 ： 提交add的内容 --> git commit -m "*****"
 
-第三步 ： 切换分支到master上 --> git branch master
+第三步 ： 切换分支到master上 --> git checkout master
 
 第四步 ： git merge DEV, git merge命令用于合并指定分支到当前分支
